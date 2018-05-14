@@ -8,7 +8,7 @@
         <relativePath />
     </parent>
     
-    <artifactId>embotics-vcommander</artifactId>
+    <artifactId>embotics-vcommander-plugin</artifactId>
     <version>1.2</version>
     
     <packaging>hpi</packaging>
