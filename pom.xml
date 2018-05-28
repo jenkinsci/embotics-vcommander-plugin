@@ -9,7 +9,7 @@
     </parent>
     <groupId>io.jenkins.plugins</groupId> 
     <artifactId>embotics-vcommander</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
     
     <packaging>hpi</packaging>
     <properties>
@@ -110,7 +110,7 @@
     									</goals>
     								</pluginExecutionFilter>
     								<action>
-    									<ignore></ignore>
+    									<ignore />
     								</action>
     							</pluginExecution>
     						</pluginExecutions>
