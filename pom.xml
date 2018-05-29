@@ -19,7 +19,7 @@
     
     <name>Embotics Vcommander Plugin</name>
     <description>Embotics vCommander integration plugin for Jenkins</description>
-    <url>https://wiki.jenkins-ci.org/display/JENKINS/vCommander+Plugin</url>
+    <url>https://wiki.jenkins-ci.org/display/JENKINS/Embotics+vCommander+Plugin</url>
 
     <!-- The default licence for Jenkins OSS Plugins is MIT. Substitute for the applicable one if needed. -->
     <licenses>
