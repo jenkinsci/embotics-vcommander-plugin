@@ -57,7 +57,7 @@ public class VCommanderRunWorkflowActionTest extends AbstractVCommanderActionTes
         //check if service was created
         jenkins.assertLogContains("Looking up command workflow with name: '" + workflowName + "'", build);
         jenkins.assertLogContains("Running command workflow: '" + workflowName + "' for target: '" + targetName + "' with type: " + targetType, build);
-        jenkins.assertLogContains("Command workflow submitted to vCommander. Task ID: " + "30", build);
+        jenkins.assertLogContains("Command workflow submitted to Commander. Task ID: " + "30", build);
         if(sync) {
         	jenkins.assertLogContains("Waiting 20 minutes for workflow completion. Checking every 30 seconds ...", build);
         	jenkins.assertLogContains("Workflow successfully completed", build);
@@ -85,7 +85,7 @@ public class VCommanderRunWorkflowActionTest extends AbstractVCommanderActionTes
         jenkins.assertBuildStatus(Result.FAILURE, build);
         
         //check log
-        jenkins.assertLogContains("There is no configuration for the vCommander workflow build step.", build.get());
+        jenkins.assertLogContains("There is no configuration for the Commander workflow build step.", build.get());
     }
     
     @Test
